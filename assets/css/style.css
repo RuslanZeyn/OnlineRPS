@@ -1,0 +1,26 @@
+#head{
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0 3.2rem;
+    font-weight: 700;
+}
+.second{
+    display: none;
+}
+
+.card{
+    padding: 0;
+    margin: 30px;
+}
+.chat{
+    font-size: 10px;
+    margin: 0 2px 2px 0;
+    padding: 0;
+}
+/* #msg p:last-child {
+    height: 100%;
+} */
+#msg{
+    max-height: 180px;
+    overflow: auto;
+}
